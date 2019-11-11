@@ -3,6 +3,10 @@ h1 {
  font-size: 18pt;
 }
 
+#center {
+ text-align: center; 
+}
+
 #col1 {
   max-width: 25%;
   float: left;
