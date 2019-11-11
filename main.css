@@ -1,0 +1,36 @@
+title {
+ font-family: Arial;
+ font-size: 18pt;
+}
+
+.col1 {
+  max-width: 25%;
+  float: left;
+}
+
+.col2 { 
+  max-width: 75%;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 12pt;
+  font-style: italic;
+}
+
+h4 {
+  font-family: Arial;
+  font-size: 11pt;
+  font-weight: bold;
+}
+ p {
+ font-family: Arial;
+ font-size: 11pt;
+ }
