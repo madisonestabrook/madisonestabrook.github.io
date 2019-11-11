@@ -29,12 +29,14 @@ h3 {
   font-size: 12pt;
   font-style: italic;
   font-weight: normal;
+  margin: 0pt;
 }
 
 h4 {
   font-family: Arial;
   font-size: 11pt;
   font-weight: bold;
+  margin: 0pt;
 }
  p, li {
  font-family: Arial;
