@@ -36,7 +36,7 @@ h4 {
   font-size: 11pt;
   font-weight: bold;
 }
- p {
+ p, li {
  font-family: Arial;
  font-size: 11pt;
  }
