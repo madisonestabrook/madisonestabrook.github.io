@@ -3,6 +3,10 @@ h1 {
  font-size: 18pt;
 }
 
+#noShow {
+ color: black;
+}
+
 #center {
  text-align: center; 
 }
