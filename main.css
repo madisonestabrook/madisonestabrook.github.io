@@ -1,14 +1,14 @@
-title {
+h1 {
  font-family: Arial;
  font-size: 18pt;
 }
 
-.col1 {
+#col1 {
   max-width: 25%;
   float: left;
 }
 
-.col2 { 
+#col2 { 
   max-width: 75%;
 }
 
