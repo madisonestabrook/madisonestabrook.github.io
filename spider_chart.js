@@ -3,7 +3,7 @@ let data = {
     'Deep Reinforcement Learning ND': [8,0,0,6,7],
     'Deep Learning ND': [8,0,4,6,0]
 }
-let features = ['PyTorch', 'OpenCV', 'AWS', 'LSTM', 'Deep Q-Network']
+let features = ['PyTorch', 'OpenCV', 'AWS', 'LSTM', 'Deep Q-Network'];
 
 let svg = d3.select("body").append("svg").attr("width", 600).attr("height", 600);
 
