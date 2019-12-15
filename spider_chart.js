@@ -5,7 +5,7 @@ let data = {
 }
 let features = ['PyTorch', 'OpenCV', 'AWS', 'LSTM', 'Deep Q-Network'];
 
-let svg = d3. d3.selectAll(".spider_chart").append("svg").attr("width", 600).attr("height", 600);
+let svg = d3.selectAll(".spider_chart").append("svg").attr("width", 600).attr("height", 600);
 
 let radialScale = d3.scaleLinear().domain([0,10]).range([0,250]);
 
