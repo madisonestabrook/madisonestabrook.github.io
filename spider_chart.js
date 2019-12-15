@@ -1,7 +1,7 @@
 let data = {
     'Computer Vision ND': [7,5,0,6,0],
     'Deep Reinforcement Learning ND': [8,0,0,6,7],
-    'Deep Learning ND': [8, 0, 4,6,0]
+    'Deep Learning ND': [8,0,4,6,0]
 }
 let features = ['PyTorch', 'OpenCV', 'AWS', 'LSTM', 'Deep Q-Network']
 
@@ -19,3 +19,9 @@ ticks.forEach(t =>
     .attr("stroke", "gray")
     .attr("r", radialScale(t))
 );
+
+function angleToCoordinate(angle, value){
+    let x = Math.cos(angle) * radialScale(value);
+    let y = Math.sin(angle) * radialScale(value);
+    return {"x": 300 + x, "y": 300 - y};
+}
