@@ -1,4 +1,4 @@
-let raw_data = d3.js('spider_chart_data.csv')
+let raw_data = d3.csv('spider_chart_data.csv')
 let data = raw_data.slice(0)
 let features = data[0]
 
