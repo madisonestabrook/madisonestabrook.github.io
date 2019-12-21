@@ -85,6 +85,7 @@ table, th, td {
     }
     .node--internal text {
         font-size: 12px;
+        fill: black;
         text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
     }
     .ballG text {
