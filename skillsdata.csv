@@ -1,4 +1,4 @@
-﻿id,value,color
+id,value,color
 Madison,
 Madison.Deep & Machine Learning,
 Madison.Deep & Machine Learning.PyTorch,4,#253494
@@ -12,7 +12,7 @@ Madison.Data Wrangling.BigData.dask,3,#41b6c4
 Madison.Data Wrangling.BigData.T-SQL,3.5,#2c7fb8
 Madison.Data Visualization & Communication,
 Madison.Data Visualization & Communication.seaborn,2.5,#7fcdbb
-Madison.Data Visualization & Communication.matploblib,2,#c7e9b4
+Madison.Data Visualization & Communication.matplotlib,2,#c7e9b4
 Madison.Data Visualization & Communication.Tableau,2,#c7e9b4
 Madison.Data Visualization & Communication.Bokeh,1.5,#c7e9b4
 Madison.Cloud Computing,
