@@ -140,7 +140,7 @@
 
             leafG.select("rect")
                     .attr("stroke","#4D4D4D")
-                    .attr("stroke-width","2");
+                    .attr("stroke-width","1");
 
 
             var ballGMovement = ballG.transition()
