@@ -65,13 +65,6 @@ table, th, td {
         stroke-opacity: 0.4;
         stroke-width: 1px;
     }
-    text {
-        font-family: "Arial Black", Gadget, sans-serif;
-        fill: black;
-        font-weight: bold;
-        font-size: 14px
-    }
-
     .xAxis .tick text{
         fill: black;
     }
