@@ -91,11 +91,8 @@ table, th, td {
         fill: #555;
     }
     .node--internal text {
-        font-size: 16px;
+        font-size: 14px;
         text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
-    }
-    .node--leaf text {
-        fill: white;
     }
     .ballG text {
         fill: white;
