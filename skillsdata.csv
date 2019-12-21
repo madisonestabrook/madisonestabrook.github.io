@@ -7,9 +7,9 @@ Madison.Deep & Machine Learning.Calculus,3.5,#2c7fb8
 Madison.Deep & Machine Learning.Statistics,2.5,#7fcdbb
 Madison.Data Wrangling,
 Madison.Data Wrangling.pandas,4,#41b6c4
-Madison.Data Wrangling.BigData,
-Madison.Data Wrangling.BigData.dask,3,#41b6c4
-Madison.Data Wrangling.BigData.T-SQL,3.5,#2c7fb8
+Madison.Data Wrangling.Big Data,
+Madison.Data Wrangling.Big Data.dask,3,#41b6c4
+Madison.Data Wrangling.Big Data.T-SQL,3.5,#2c7fb8
 Madison.Data Visualization & Communication,
 Madison.Data Visualization & Communication.seaborn,2.5,#7fcdbb
 Madison.Data Visualization & Communication.matplotlib,2,#c7e9b4
