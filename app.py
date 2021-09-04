@@ -46,4 +46,4 @@ def projects():
     return render_template("projects.html", Projects=prjs)
 
 if __name__ == '__main__':
-    server.run(debug=False)
+    server.run(host="http://madisonestabrook.herokuapp.com/", debug=False)
