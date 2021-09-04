@@ -1,2 +1,2 @@
-web: gunicorn app:MadisonEstabrook
+web: gunicorn app:server
 heroku ps:scale web=1
