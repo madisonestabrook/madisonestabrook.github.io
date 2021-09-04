@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Madison Estabrook</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+<body>
+    <div class="header">
+        <h1 class="title"> Madison Estabrook </h1>
+        <ul class='navbar'>
+            <li class='navbar'><a href="/">Home</a> </li>
+            <li class='navbar'><a href="/projects">Projects</a></li>
+            <li class='navbar'><a href="https://www.linkedin.com/in/madison-estabrook/">LinkedIn</a></li>
+            <li class='navbar'><a href="https://github.com/madisonestabrook">GitHub</a></li>
+        </ul>
+        <iframe id='frame1', src='/skills_viz/', width='750', height='450'></iframe>
+    </div>
+    <div class='col1'>
+        <h1>Education</h1>
+        <h2>Missouri State University</h2>
+        <strong>MS in Technical Communication
+            <br>
+            Graduate Certificates in Conflict and Professional Studies</strong>
+        <p>
+            May 2019
+            <br>
+            GPA: 4.0
+        </p>
+        <strong>BS in Information Analytics and Data Communication</strong>
+        <p>
+            December 2017
+            <br>
+            Major GPA: 3.56
+        </p>
+        <h2>Udacity</h2>
+        {% for nd in Nanodegrees %}
+        <strong>{{ nd[0] }}</strong>
+        <p> 
+            {{ nd[1] }}
+            <br>
+            {{ nd[2] }}
+        </p>
+       {% endfor %}
+    </div>
+    <div class='col2'>
+        <h1>Experience</h1>
+        <h2>Agency for Health Care Administration | Computer Systems Project Consultant | August 2019 – Present</h2>
+        <ul>
+            <li>
+                Administer Microsoft SQL Server daily through the creation and maintenance of data pipelines and T-SQL stored procedures
+            </li>
+            <li>
+                Identify, analyze, and interpret trends and patterns from complex structured and unstructured datasets using SQL, Python, R, and Julia
+            </li>
+        </ul>
+        <h2>Agency for Health Care Administration | OPS Systems Project Consultant | April 2019 – August 2019</h2>
+        <ul>
+            <li>
+                Identified, analyzed, and interpreted trends and patterns from queried datasets using SQL and pandas on complex data sets
+            </li>
+            <li>
+                Reported trends, patterns, and statistical analyses using matplotlib, seaborn, and Bokeh via IPython notebooks 
+            </li>
+        </ul>
+        <h1>Certifications</h1>
+        <ul>
+            {% for cert in Certifications %}
+                <li>
+                    <strong>{{cert[0]}}</strong>. {{cert[1]}}
+                </li>
+            {% endfor %}
+        </ul>
+        <h1>Selected Projects</h1>
+        <h2>Academic</h2>
+        <ul>
+            {% for cp in SelectedProjects %}
+            <li>
+                <strong>{{cp[0]}}</strong> - {{cp[1]}}
+            </li>
+            {% endfor %}
+        </ul>
+        <h2>Open-Source</h2>
+        <ul>
+            <li>
+                <strong>The Algorithms – Julia</strong> - created and unit tested a base Julia implementation of a palindrome checker. Contributed May 2021
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
