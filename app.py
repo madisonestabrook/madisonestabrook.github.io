@@ -11,8 +11,7 @@ app = dash.Dash(server=server, routes_pathname_prefix="/skills_viz/")
 df = pd.read_excel('madison_skills.xlsx')
 
 fig = px.bar_polar(df, r="professional experience (years)", theta="skill",
-                   color="relative strength", template="ggplot2", color_continuous_scale='delta_r', title="Madison\'s Top Skills")
-
+                   color="mastery", template="ggplot2", color_continuous_scale='delta', title="Madison\'s Top Skills")
 app.layout = dcc.Graph(figure=fig, style={"width": "100%"})
 
 nds = [('Computer Vision Nanodegree', 'Facebook Secure and Private AI Nanodegree Scholar', 'December 2019'), ('Deep Reinforcement Learning Nanodegree', 'Facebook PyTorch Nanodegree Scholar', 'November 2019'),
