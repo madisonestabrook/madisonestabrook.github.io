@@ -16,7 +16,7 @@ app.layout = dcc.Graph(figure=fig, style={"width": "100%"})
 
 nds = [('Computer Vision Nanodegree', 'Facebook Secure and Private AI Nanodegree Scholar', 'December 2019'), ('Deep Reinforcement Learning Nanodegree', 'Facebook PyTorch Nanodegree Scholar', 'November 2019'),
 ('Deep Learning Nanodegree', 'Facebook PyTorch Nanodegree Scholar', 'May 2019'), ('Front-End Web Development Nanodegree','Grow with Google Nanodegree Scholar', 'November 2018')]
-certs = [('Dataquest Data Scientist in Python', 'August 2019 Diversity Scholarship'), ('Dataquest Data Analyst with Python', 'July 2019 Diversity Scholarship'),
+certs = [('Dataquest Data Analyst in R', 'September 2021 AI Inclusive Scholarship'),('Dataquest Data Scientist in Python', 'August 2019 Diversity Scholarship'), ('Dataquest Data Analyst with Python', 'July 2019 Diversity Scholarship'),
 ('Fundamentals of Scalable Data Science', 'February 2019 IBM’s Applied AI Scholarship'), ('DataCamp Python Programmer', 'February 2019 Women and Gender Minorities Scholarship')]
 sps = [('Multi-Agent Reinforcement Learning','trained a pair of agents to play tennis using Unityagents, NumPy, and PyTorch. Completed December 2019'), 
 ('Automatic Image Captioning', 'combined a PyTorch CNN and a PyTorch RNN to build a computer vision network that automatically produces captions, given an input image. Completed November 2019'), 
